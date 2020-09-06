@@ -1,0 +1,30 @@
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  background-color: yellow;
+}
+.grid div{
+  width: 48px;
+  height:48px;
+  border: 1px solid;
+  justify-content: center;
+  display: flex;
+
+}
+
+.blue-filled{
+  background-image: url(blue_filled.png)
+}
+.blue-unfilled{
+  background-image: url(blue_unfilled.png)
+}
+.red-filled{
+  background-image: url(red_filled.png)
+}
+.red-unfilled{
+  background-image: url(red_unfilled.png)
+}
